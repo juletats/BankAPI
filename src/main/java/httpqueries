@@ -1,0 +1,46 @@
+
+GET http://localhost:8080/CardOperations?idAccount=1000200030004000501
+Accept: application/json
+
+<> 2021-05-19T183239.200.txt
+<> 2021-05-19T174634.200.txt
+
+###
+
+POST http://localhost:8080/CardOperations
+Content-Type: application/json
+
+{
+"idAccount":1000200030004000503
+
+}
+
+<> 2021-05-19T183248.200.txt
+<> 2021-05-19T175227.200.txt
+<> 2021-05-19T175036.200.txt
+<> 2021-05-19T174914.200.txt
+<> 2021-05-19T174735.200.txt
+
+###
+
+GET http://localhost:8080//BalanceOperations?idCard=1234234534564567592
+Accept: application/json
+
+<> 2021-05-19T183318.200.txt
+<> 2021-05-19T181044.200.txt
+<> 2021-05-19T175311.200.txt
+
+###
+POST http://localhost:8080//BalanceOperations
+Content-Type: application/json
+
+{
+  "idCard": 1234234534564567605,
+  "balance": 100000.0
+}
+
+<> 2021-05-19T183325.200.txt
+<> 2021-05-19T183003.200.txt
+<> 2021-05-19T182843.200.txt
+
+###
